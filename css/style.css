@@ -309,8 +309,12 @@
     font-size: 2.1rem;
     font-weight: bold;
 }
+.slick-prev:after,
+.slick-next:after{
+    font-family: unicons-line;
+}
 .slick-prev:after {
-    content: '\eb79';
+    content: '\ec49';
 }
 .slick-next:after {
     content: '\eb9f';
